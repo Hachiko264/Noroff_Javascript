@@ -1,0 +1,25 @@
+//MODULE ASSIGNMENT 2 - LEVEL 1
+
+1. What is a function literal?
+en annen måte å definere en funksjon som ikke er navngitt?
+noen sier det er regelen for å skrive en funksjonsetning og hvilke elementer som kreves.
+Ordet function + navnet på funksjonen + parametre og statement i {}.
+
+2. What is the constructor?
+Lager objekter med funksjon. En funksjon som laget et objekt. 
+var myFather = new Person("John", "Doe", 50, "blue"); 
+
+3. What does the return statement do?
+den returnerer infoen man hentet ut fra en funksjon, bare være obs på fange den opp!
+
+4. What will be written to the console from this function:
+		function myFunction(){
+			  return console.log('inside my function');
+			  console.log('My name is Andy');
+		}
+		myFunction();
+- error? My name is andy?
+
+
+5. Briefly describe scope in JavaScript.
+Litt forvirrende, men det har noe å si om hvor variabler i koden "ser". Har den globalt scope, så kan den se hele koden, men hvis ikke så vet den ikke hva som eksisterer utenfor. F.eks om noe ikke defineres som "var" så blir den global, slik jeg har forstått det. 
