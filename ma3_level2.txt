@@ -1,0 +1,49 @@
+JavaScript MA03
+----------------
+Level 2
+
+1. In your own words, describe what JavaScript Code Style is.
+- Å skrive koden i en bestemt stil, i tråd med regler og retningslinjer,
+og ulike standarder som finnes. Hovedtanken er uansett å ha en rask og 
+lettlest-kode. Det er rent estetisk, men et supert hjelpemiddel og 
+uansett greit å følge standardene som er satt som retningslinjer. 
+
+2. What is a Regular Expression?
+- En haug med tegn som får ulike funksjoner, og disse endres når de 
+kombineres. Min beste sammenligning er med å lære seg kinesisk. 
+Det er et slags kodespråk for å finne igjen elementer og dermed 
+modifisere disse, samt teste true/false osv. 
+
+3. What does the .random() method do?
+- Gir et tilfeldig element, f.eks Math.Random gir et tilfeldig tall
+mellom 0 og 1. 
+
+4. What does the .sort() method do?
+- Sorterer en liste/array alfabetisk. 
+
+5. What does the .reverse() method do?
+- Soterer en liste/array alfabetisk fra bakerst til fremst. 
+
+6. List two examples of bad JavaScript code.
+Ukonsekvent og overdreven bruk av stor forbokstav.
+som (var Fruits) og dårlige navn som c, g,, o. Tydelig navn og bare
+bruk av stor bokstav i overordnet element for tydelig hirarki. 
+
+Vet ikke om det er dårlig kode, men tungvindt:
+
+var fruits = fruit1, fruit2, fruit3;
+var fruit1 = "Banana";
+var fruit2 = "Apple";
+var fruit3 = "Peach";
+
+
+7. What data types can a JSON object contain?
+- Det meste. Boolean, lister/array, streng/string, tall og 
+objekt om det er et JSON-objekt.
+
+8. What is minifying JavaScript Code?
+- Korte ned koden og fjerne alt unødvendig. Fjerne kode man ikke trenger,
+overdrevet nedrykk, kortere navn, og generelt optimalisere koden. 
+
+9. What is a global variable?
+- En variabel som er synlig i hele koden. 
