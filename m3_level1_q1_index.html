@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - MA03 - Question 1</title>
+<body>
+
+<h3>Kontaktskjema </h3>
+	<div class="container">
+	    <label for="fname">Fornavn</label><br>
+	    <input type="text" id="fname" name="firstname">
+		<br><br>
+	    <label for="lname">Etternavn</label><br>
+	    <input type="text" id="lname" name="lastname">
+		<br><br>
+	    <label for="lname">Telefonnummer</label><br>
+	    <input type="text" id="lname" name="number">
+	    <br><br>
+	    <label for="lname">E-mail</label><br>
+	    <input type="text" id="lname" name="email">
+	    <br><br>
+	    <input type="submit" value="Send">
+	  </form>
+	</div>
+
+<script>
+
+// logger ut om det skriver mellomrom i feltene
+function tomtFelt(str){
+    return !str.replace(/\s+/, '').length;
+}
+
+document.getElementById("fname").addEventListener("input", function() {
+  if( tomtFelt(this.value) ) {
+     console.log("Fyll ut fornavn!")
+  }
+});
+
+document.getElementById("lname").addEventListener("input", function() {
+  if( tomtFelt(this.value) ) {
+     console.log("Fyll ut etternavn!")
+  }
+});
+
+
+// MÅ KOBLES TIL KNAPPEN
+
+if(document.getElementById("fname").value.length == 0)
+{
+    console.log("Fyll ut fornavn!")
+}
+
+if(document.getElementById("lname").value.length == 0)
+{
+    console.log("Fyll ut etternavn!")
+}
+
+
+</script>
+</body>
+</html>
